@@ -2,7 +2,7 @@
 global static buffer accessible in push/pop stack-like fashion. 
 Intended for short lifetime buffer allocation in low-to-medium complexity 
 embedded systems as a more predictable alternative to standard heap 
-allocation. 2020-09.
+allocation.
 
 - To allocate data from the static buffer use GSB_push(size, ppData).
 - To deallocate some data (without erasing) use GSB_pop(size). 
